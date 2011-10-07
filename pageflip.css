@@ -70,12 +70,13 @@
 }
 #shadow {
   width: 1040px;
-  height: 715px;
+  height: 469px;
   display: block;
   position: absolute;
-  top: 107px;
-  left: 280px;
+  top: 24px;
+  left: 11%;
   z-index: -1;
+	box-shadow: 0px 0px 40px #000;
 }
 #book:hover {
 /*
@@ -83,7 +84,7 @@
 */
 }
 #book {
-  margin: 100px auto;
+  margin: 10px auto;
   width: 1040px;
   height:469px;
   display: block;
