@@ -6,12 +6,12 @@
     box-shadow: 10px 10px 20px #333;
   }
   20% {
-    -webkit-transform: rotateY(-90deg) skew(0deg, 3deg) perspective(4180px);;
-		box-shadow: 10px 10px 20px #333;
+    -webkit-transform: rotateY(-90deg) skew(0deg, 3deg) perspective(4180px);
+    box-shadow: 10px 10px 20px #333;
   }
   50% {
-    -webkit-transform: rotateY(-180deg) skew(0deg, 0deg) perspective(4180px);;
-		box-shadow: 0 0 0 ;
+    -webkit-transform: rotateY(-180deg) skew(0deg, 0deg) perspective(4180px);
+    box-shadow: 0 0 0 ;
   }
   
   100% {
@@ -28,7 +28,7 @@
   }
   20% {
     z-index:4;
-    -webkit-transform: rotateY(-90deg) skew(0deg, -3deg) perspective(4180px);;
+    -webkit-transform: rotateY(-90deg) skew(0deg, -3deg) perspective(4180px);
   }
   50% {
     -webkit-transform:rotateY(0deg) skew(0deg, 0deg);
@@ -49,7 +49,7 @@
 
   }
 	100% {
-		box-shadow: 0 0 0 #fff;
+    box-shadow: 0 0 0 #fff;
 	}
 }
 
