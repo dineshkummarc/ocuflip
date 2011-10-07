@@ -15,8 +15,27 @@
   <link rel="stylesheet" href="pageflip.css" /> 
   <script src="jquery.js"></script>
   <script src="pageflip.js"></script>
+  <style>
+  </style>
+  <script>
+    $(function(){
+      $('button').click(function(){
+        $('#page1')
+          .css('-webkit-animation', 'leftpageflip 2s linear')
+
+        $('#page2')
+          .css('-webkit-animation', 'rightpageflip 2s linear')
+        
+        setTimeout(function(){
+          $('#page1, #page2')
+            .css('-webkit-animation', '')
+        }, 2000)
+      })
+    });
+  </script>
 </head>
 <body>
+  <button>flip</button>
   <article id="book">
     <figure id="binding"></figure>
     <section id="page1" class="page">

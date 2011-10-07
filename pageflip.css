@@ -7,10 +7,12 @@
     border-bottom-right-radius: 32px;
     -webkit-transform: rotateY(-90deg) skew(0deg, 3deg);
   }
-  50% {
-    -webkit-transform: rotateY(-180deg) skew(0deg, 0deg);
+  40% {
     z-index:0;
-
+  }
+  50% {
+    z-index:0;
+    -webkit-transform: rotateY(-180deg) skew(0deg, 0deg);
     -webkit-border-bottom-right-radius: 0px;
     border-bottom-right-radius: 0px;
   }
@@ -28,6 +30,9 @@
     -webkit-border-bottom-left-radius: 32px;
     border-bottom-left-radius: 32px;
     -webkit-transform: rotateY(-90deg) skew(0deg, -3deg);
+  }
+  40% {
+    z-index:1;
   }
   50% {
     -webkit-transform:rotateY(0deg) skew(0deg, 0deg);
@@ -100,7 +105,6 @@
   top: 0px;
   background: white;
   position: absolute;
-  -webkit-transition: 1s all;
 }
 #page1 {
   -webkit-transform-origin: 0% 0%;
