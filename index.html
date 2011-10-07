@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
 <head>
   <meta charset='utf-8'>
 
@@ -73,3 +74,102 @@
   
 </body>
 </html>
+=======
+<head>                                                                                                          
+  <meta charset="utf-8">
+  <title>Page Flip</title>
+  <link rel="stylesheet" href="pageflip.css" /> 
+  <script src="jquery.js"></script>
+  <script src="jquery.ba-hashchange.js"></script>
+  <script src="jquery.ui.core.js"></script>
+  <script src="jquery.ui.widget.js"></script>
+  <script src="jquery.bocoup.pageflip"></script>
+  <script src="pageflip.js"></script>
+  <style>
+  </style>
+  <script>
+    $(function(){
+      
+      // .css('-webkit-animation', 'frontpageflip-left 2s linear')
+      // .css('-webkit-animation', 'backpageflip-left 2s linear')
+
+      $('#book').pageflip();
+
+      // $(window).hashchange();
+      // 
+      // $(window).hashchange( function(){
+        //$( '#' + location.hash.split('#')[0] )
+      })
+      
+    });
+  </script>
+</head>
+<body>
+  <button id="previous"><<</button>
+  <button id="next">>></button>
+  <button>1</button>
+  <button>2</button>
+  <button>3</button>
+  <button>4</button>
+  <button>5</button>
+  <button>6</button>
+  <button>7</button>
+  <button>8</button>
+  <button>9</button>
+  <button>10</button>
+  <article id="book">
+    <section id="page1" class="page odd">
+      <h2>Page 1</h2>
+      <p class="page-title leftside">Bert Appward’s Field Guide to Web Applications</p>
+      <p class="page-title rightside">2011 Edition</p>
+      <h1>This Is a Main Title</h1>
+      <p class="main-caption">This is a title caption</p>
+      <h2>Bold H2</h2>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+    </section>
+    <section id="page2" class="page even">
+      <h2 style="color: #ff0000">Page 2</h2>
+      <p class="page-title leftside">Bert Appward’s Field Guide to Web Applications</p>
+      <p class="page-title rightside">2011 Edition</p>
+      <h1>This Is a Main Title</h1>
+      <p class="main-caption">This is a title caption</p>
+      <h2>Bold H2</h2>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+    </section>
+    <section id="page3" class="page odd">
+      <h2>Page 3</h2>
+      <p class="page-title leftside">Bert Appward’s Field Guide to Web Applications</p>
+      <p class="page-title rightside">2011 Edition</p>
+      <h1>This Is a Main Title</h1>
+      <p class="main-caption">This is a title caption</p>
+      <h2>Bold H2</h2>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+    </section>
+    <section id="page4" class="page even">
+      <h2>Page 4</h2>
+      <p class="page-title leftside">Bert Appward’s Field Guide to Web Applications</p>
+      <p class="page-title rightside">2011 Edition</p>
+      <h1>This Is a Main Title</h1>
+      <p class="main-caption">This is a title caption</p>
+      <h2>Bold H2</h2>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+    </section>
+    <section id="page4" class="page even">
+      <h2>Page 4</h2>
+      <p class="page-title leftside">Bert Appward’s Field Guide to Web Applications</p>
+      <p class="page-title rightside">2011 Edition</p>
+      <h1>This Is a Main Title</h1>
+      <p class="main-caption">This is a title caption</p>
+      <h2>Bold H2</h2>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+      <p>Rhoncus cras auctor in natoque sit vel etiam sed dictumst elit diam? Nisi tortor, nec, urna, augue egestas? Scelerisque pulvinar, odio, amet lorem, adipiscing! Nisi a pellentesque risus. Nec eros elementum lorem, adipiscing ut auctor! Sagittis in turpis tortor etiam. Nisi nunc eros pulvinar ultrices, vel! Duis tristique, cum velit elementum integer mid purus, hac non. Et porta sagittis facilisis vel mid mauris? Aliquet tempor magnis quis in platea elit urna! Elementum ut tincidunt turpis, parturient porta aliquam parturient, dignissim, purus lorem ut, pid? Cras aenean, cursus! Magna auctor in! Ut arcu urna egestas velit duis scelerisque ut etiam ut. Habitasse lectus rhoncus cursus facilisis, ut? Sociis, eu, ac montes rhoncus tincidunt, aliquam, aliquam, odio rhoncus! Eu mus ac nunc.</p>
+    </section>
+  </article>
+  <figure id="shadow"></figure>
+</body>
+</html>
+>>>>>>> master
